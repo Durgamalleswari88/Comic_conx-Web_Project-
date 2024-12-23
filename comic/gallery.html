@@ -1,0 +1,130 @@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="gallery.css">
+    <link rel="stylesheet" href="styl.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+</head>
+<body>
+  <nav>
+    <div class="logo">
+       Comic-ConX
+    </div>
+    <input type="checkbox" id="click">
+    <label for="click" class="menu-btn">
+    <i class="fas fa-bars"></i>
+    </label>
+    <ul>
+       <li><a class="active" href="fj.html">Home</a></li>
+       <li><a href="about.html">About</a></li>
+       <li><a href="gallery.html"> Gallery</a></li>
+       <li><a href="feedback.html">Feedback</a></li>
+       
+ <ul>
+ <li>
+ </li>
+    </ul>
+ </nav>
+    <div class="container">
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide"><img src="img0.jpg" width="1300" height="700"></div>
+              <div class="swiper-slide"><img src="img.jpg" width="1300" height="700"></div>
+              <div class="swiper-slide"><img src="img-1.jpg" width="1300" height="700"></div>
+              <div class="swiper-slide"><img src="img-2.jpg" width="1300" height="700"></div>
+              <div class="swiper-slide"><img src="img-3.jpg" width="1300" height="700"></div>
+              <div class="swiper-slide"><img src="img-4.jpg" width="1300" height="700"></div>
+              
+              
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+          
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          
+            
+          </div>
+
+
+
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+        autoplay: {
+            delay: 1200,
+            disableOnInteraction: false,
+        },
+ 
+  loop: true,
+
+  
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+
+  
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+  
+});
+    </script>
+    <div class="container1">
+      <div class="heading1">
+        <h3>Photo <span>Gallery</span></h3>
+      </div>
+      <div class="box">
+        
+        <div class="dream">
+          <img src="1.jpg">
+           <img src="2.jpg">
+            <img src="3.jpg">
+             <img src="4.jpg">
+              <img src="5.jpg">
+              
+        </div>
+  
+          <div class="dream">
+          <img src="6.jpg">
+           <img src="7.jpg">
+            <img src="8.jpg">
+             <img src="9.jpg">
+              <img src="10.jpg">
+              
+        </div>
+  
+          <div class="dream">
+          <img src="11.jpg">
+           <img src="12.jpg">
+            <img src="13.jpg">
+             <img src="14.jpg">
+              <img src="15.jpg">
+              
+        </div>
+  
+  
+  
+  
+      </div>
+      <div class="btn">
+        <a href="#">More</a>
+      </div>
+  
+  
+  
+  
+  
+    </div>
+</body>
+</html>
+    
+    
